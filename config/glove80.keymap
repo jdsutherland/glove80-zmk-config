@@ -24,7 +24,7 @@
             label = "Backspace Hold-Tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>; // Adjust if needed (default is 200ms)
-            bindings = <&kp BSPC>, <&kp LC(LS(NONE))>;
+            bindings = <&kp BSPC>, <&mo LCTRL &mo LSHIFT>;
         };
     };
 };
